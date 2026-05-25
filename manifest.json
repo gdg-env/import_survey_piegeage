@@ -1,0 +1,19 @@
+{
+  "name": "import-survey-piegeage",
+  "label": "Importer Survey Piégeage",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.13.0",
+  "author": "",
+  "description": "Importe des données de survey piégeage depuis un fichier Excel (.xlsx/.xls) vers la couche sde.survey_piegeage",
+  "category": "data",
+  "tags": ["import", "excel", "piegeage", "survey"],
+  "icon": "icon.svg",
+  "defaultSize": {
+    "width": 640,
+    "height": 560
+  },
+  "properties": {},
+  "hasConfig": true,
+  "translatedLocales": ["en", "fr"]
+}
