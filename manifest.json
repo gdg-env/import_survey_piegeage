@@ -7,13 +7,19 @@
   "author": "",
   "description": "Importe des données de survey piégeage depuis un fichier Excel (.xlsx/.xls) vers la couche sde.survey_piegeage",
   "category": "data",
-  "tags": ["import", "excel", "piegeage", "survey"],
+  "tags": [
+    "import",
+    "excel",
+    "piegeage",
+    "survey"
+  ],
   "icon": "icon.svg",
   "defaultSize": {
     "width": 640,
     "height": 560
   },
-  "properties": {},
-  "hasConfig": true,
-  "translatedLocales": ["en", "fr"]
+  "properties": {
+    "hasConfig": false
+  },
+  "hasConfig": true
 }
