@@ -1,7 +1,32 @@
-# Widget – Importer Survey Piégeage
+# Importer Survey Piégeage
 
-Widget personnalisé pour **ArcGIS Experience Builder** (Enterprise 11.3 / ExB 1.13).  
-Permet d'importer des données de survey piégeage depuis un fichier Excel vers la couche `sde.survey_piegeage`.
+Widget personnalisé pour **ArcGIS Experience Builder** permettant d'importer des données de survey piégeage depuis un fichier Excel vers la couche `sde.survey_piegeage`. La couche cible est préconfigurée dans le widget — aucune saisie d'URL requise par l'utilisateur.
+
+---
+
+## Compatibilité
+
+| ArcGIS Experience Builder | Compatible |
+|---------------------------|------------|
+| 1.13                      | oui        |
+
+| ArcGIS Enterprise | Compatible |
+|-------------------|------------|
+| 11.3              | oui        |
+
+---
+
+## Déployer dans ArcGIS Enterprise
+
+Dans Experience Builder, aller dans **Widgets personnalisés → Ajouter un widget personnalisé** et coller cette URL :
+
+```
+https://raw.githubusercontent.com/GDG-Env/import_survey_piegeage/main/manifest.json
+```
+
+---
+
+## Fonctionnalités
 
 ---
 
